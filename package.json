@@ -1,0 +1,21 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adil-calculater": "^1.0.0",
+    "config": "^3.3.8",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
+    "underscore": "^1.13.6"
+  }
+}

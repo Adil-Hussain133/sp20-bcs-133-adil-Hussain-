@@ -1,0 +1,14 @@
+extends ../layout
+
+block content 
+    h1 Add New product
+    form(action="/product/add",method="post")
+        .form-group 
+            label(for="name") Product name 
+            input#name(type="text",class="form-control",name ="name")  
+
+        .form-group 
+            label(for="price") Product name 
+            input#name(type="text",class="form-control",name="price") 
+
+        input(type="submit", class="btn btn-info")

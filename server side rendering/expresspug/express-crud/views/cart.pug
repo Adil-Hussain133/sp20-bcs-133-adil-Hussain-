@@ -1,0 +1,23 @@
+extends layout
+
+block content
+ h1 My shoping Cart
+ - total=0;
+    table.table 
+        thead 
+            th name
+            th price 
+            th action
+        tbody 
+            each item in cart 
+                - total += Number(item.price)
+                tr 
+                    td=item.name
+                    td=item.price
+                    td 
+                        a(href="/product/cart/remove/"+item._id, class="btn btn-danger") remove  
+        tfoot 
+            tr 
+            td total 
+            td=total
+            

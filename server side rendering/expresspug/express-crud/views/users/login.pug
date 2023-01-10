@@ -1,0 +1,15 @@
+extends ../layout
+
+block content 
+    h1 login
+    form(action="/login",method="post")
+       
+        .form-group 
+            label(for="email") email
+            input#name(type="email",class="form-control",name ="email",value="adil@gmail.com")  
+
+        .form-group 
+            label(for="password") password 
+            input#name(type="password",class="form-control",name="password",value = "1234") 
+
+        input(type="submit", class="btn btn-info" , value="register")

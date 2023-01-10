@@ -1,0 +1,14 @@
+{
+  "name": "adil-calculater",
+  "version": "1.0.0",
+  "description": "this is my new package for my practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calulater"
+  ],
+  "author": "adil",
+  "license": "ISC"
+}
